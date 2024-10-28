@@ -5,16 +5,15 @@ This repository contains materials for our feature engineering lecture focusing 
 
 ### Repository Structure
 ```
-├── data/                     # Data files and preprocessing scripts
-│   ├── location_info.csv     # Location metadata including lat/long
-│   └── location_data.csv     # Aggregated Craigslist location statistics
+├── data/                     
+│   ├── location_summary_data.csv    # Location information
+│   └── processed_listing_pages.csv  # Our modeling data
 ├── exercises/                # In-class exercises
-│   ├── market_compare/       # Compare national vs local models
-│   └── clustering/           # Implement clustering solution
-├── assignments/              # Weekly assignment
-│   ├── instructions.md       # Assignment details
-│   └── getting_started.ipynb # Starter code
-└── solutions/                # [Hidden] Solution code
+│   ├── market-compare.ipynb  # Compare national vs local models
+│   ├── location-clustering.ipynb  # Implement clustering solution
+|   └── *-solutions.ipynb     # Completed versions of exercises
+└── assignments/              # Weekly assignment
+    └──getting-started.ipynb # Starter code
 ```
 
 ### Knowledge Needed from Past Classes
