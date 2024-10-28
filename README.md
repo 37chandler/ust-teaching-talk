@@ -3,6 +3,8 @@
 
 This repository contains materials for our feature engineering lecture focusing on using cluster analysis to improve regression models. We'll use the Carbitrage dataset to explore how clustering can help us incorporate location effects into our car pricing models.
 
+Data can be downloaded from [here](https://www.dropbox.com/t/H5lPzrmt29Oq1F5V). Extract it to the data folder. 
+
 ### Repository Structure
 ```
 ├── data/                     
